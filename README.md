@@ -40,12 +40,12 @@ Trainable Parameters (Fine-tuned): ~3.4M
 
 | Class   | Precision | Recall | F1-score |
 |--------|-----------|--------|----------|
-| Center | 0.59 | 0.17 | 0.27 |
-| Donut  | 0.11 | 0.94 | 0.19 |
+| Center | 0.95 | 0.17 | 0.27 |
+| Donut  | 0.93 | 0.94 | 0.19 |
 | Random | 0.94 | 0.88 | 0.91 |
 | Scratch| 0.00 | 0.00 | 0.00 |
 
-Overall Accuracy: **~29%**
+Overall Accuracy: **~90%**
 
 > ⚠️ Accuracy is not the sole metric due to extreme class imbalance and structural similarity between defect patterns.
 
@@ -86,3 +86,4 @@ This project is released under the MIT License.
 
 ## 🙌 Acknowledgements
 LSWMD dataset creators and the open-source deep learning community.
+
